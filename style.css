@@ -1,3 +1,152 @@
+:root {
+  font-family: "Alice", serif; /* esqueci de colocar */
+  line-height: 150%;
+}
+
+body {
+  background-image: url(img/bg-image.jpg);
+  background-size: cover;
+}
+
+#page {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 800px;
+  width: 90%;
+  margin: 48px auto; /* esqueci */
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+
+  border-radius: 24px;
+  background: var(--surface-color, #F0E8C2);
+}
+
 img {
   border-radius: 16px;
+  width: 100%;
+  height: auto;
+}
+
+main {
+  display: flex;
+  padding: 0px 24px 24px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+#about {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  align-self: stretch;
+}
+
+#about h1 {
+  align-self: stretch;
+  font-family: "Alice", serif;
+  color: var(--text-color-primary, #291B1A);
+  font-variant-numeric: lining-nums tabular-nums;
+  font-feature-settings: 'liga' off, 'clig' off;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 56px */
+}
+
+#about p {
+    font-family: "Alice", serif;
+    align-self: stretch;
+    color: var(--text-color-secondary, #573A37);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+
+#ingredients {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  align-self: stretch;
+}
+
+#ingredients h2 {
+  font-family: "Alice", serif;
+  color: var(--text-color-primary, #291B1A);
+  font-variant-numeric: lining-nums tabular-nums;
+  font-feature-settings: 'liga' off, 'clig' off;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+}
+
+#ingredients ul li {
+  color: var(--text-color-secondary, #573A37);
+  font-variant-numeric: lining-nums tabular-nums;
+  font-feature-settings: 'liga' off, 'clig' off;
+  font-family: "Alice";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+#preparetion {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  align-self: stretch;
+}
+
+#preparetion h2 {
+  color: var(--text-color-primary, #291B1A);
+  font-variant-numeric: lining-nums tabular-nums;
+  font-feature-settings: 'liga' off, 'clig' off;
+  font-family: "Alice";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+}
+
+#preparetion p {
+  color: var(--text-color-secondary, #573A37);
+  font-variant-numeric: lining-nums tabular-nums;
+  font-feature-settings: 'liga' off, 'clig' off;
+  font-family: "Alice";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+#footer {
+  display: flex;           
+  justify-content: center; 
+  align-items: center;     
+  gap: 4px;                
+}
+
+#footer {
+  color: var(--text-color-on-bg, #F0E8C2);
+  font-variant-numeric: lining-nums tabular-nums;
+  font-feature-settings: 'liga' off, 'clig' off;
+  padding-bottom: 28px;
+  font-family: "Alice";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+#footer svg {
+  flex-shrink: 0;
+  vertical-align: middle; /*Esqueci de colocar*/
 }
